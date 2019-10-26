@@ -8,7 +8,7 @@ Visit this [sample PageJS implementation](https://javascriptaddict.github.io/Sin
 ## Usage
 ### Initialization
 ```javascript
-Paginize.initialize(No_Of_Results_Per_Page, Data_Array);
+Paginize.initialize(No_Of_Results_Per_Page, Data_Array, Box_Set);
 ```
 * No_Of_Results_Per_Page refers to how many results is to be displayed per page. 
 ```
@@ -18,17 +18,28 @@ E.g. 5
 ```
 E.g. [{data: "This is PageJS"}, {data: "It helps with pagination"}]
 ```
-#### Data Returned
-* This initialization function will run the calculation function automatically after it is done and return the page numbers.
+* Box_Set refers to how many page number boxes per segment. 
 ```
-E.g. [1, 2, 3, 4, 5, 6, 7 , 8, 9, 10]
+E.g. 5
 ```
-* **IMPORTANT: Please use the data returned to set the page number and ID of the pagination boxes**
 ### Pagination & Segmentation Calculations
 ```javascript
 Paginize.calculatePages();
 ```
 * There is no need to run this function as the initialization function will automatically run it.
+### Change Box Segment
+```javascript
+Paginize.changeBoxSegment(Direction)
+```
+* Direction refers to decrease or increase to the next box segment.
+```
+E.g. -1 or 1
+```
+#### Data Returned
+```
+E.g. [[1, 2, 3, 4, 5], [6, 7 , 8, 9, 10]]
+```
+* **IMPORTANT: Please use the data returned to set the page number and ID of the pagination boxes**
 ### Change Page
 ```javascript
 Paginize.changePage(BoxID);
