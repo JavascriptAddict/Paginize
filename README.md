@@ -1,4 +1,4 @@
-# PageJS
+# Pagninize.js
 PageJS is a simple Javascript wrapper function which aims to simplify the creation of pagination. View below for more information.
 
 ### Sample Webpage
@@ -8,7 +8,7 @@ Visit this [sample PageJS implementation](https://javascriptaddict.github.io/Sin
 ## Usage
 ### Initialization
 ```javascript
-PageJS.initialize(No_Of_Results_Per_Page, Data_Array);
+Paginize.initialize(No_Of_Results_Per_Page, Data_Array);
 ```
 * No_Of_Results_Per_Page refers to how many results is to be displayed per page. 
 ```
@@ -26,12 +26,12 @@ E.g. [1, 2, 3, 4, 5, 6, 7 , 8, 9, 10]
 * **IMPORTANT: Please use the data returned to set the page number and ID of the pagination boxes**
 ### Pagination & Segmentation Calculations
 ```javascript
-PageJS.calculatePages();
+Paginize.calculatePages();
 ```
 * There is no need to run this function as the initialization function will automatically run it.
 ### Change Page
 ```javascript
-PageJS.changePage(BoxID);
+Paginize.changePage(BoxID);
 ```
 * BoxID refers to the ID of the pagination box that was clicked. Refer to the important note under Initialization for more information.
 
