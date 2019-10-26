@@ -1,9 +1,8 @@
-# Pagninize.js
-PageJS is a simple Javascript wrapper function which aims to simplify the creation of pagination. View below for more information.
+# Paginize.js
+Paginize.js is a simple Javascript wrapper function which aims to simplify the creation of pagination. View below for more information.
 
 ### Sample Webpage
-Visit this [sample PageJS implementation](https://javascriptaddict.github.io/Singapore-Traffic-Camera-Webpage "Singapore Traffic Camera Webpage").
-
+Visit this [sample Paginize.js implementation](https://javascriptaddict.github.io/Singapore-Traffic-Camera-Webpage "Singapore Traffic Camera Webpage").
 
 ## Usage
 ### Initialization
@@ -44,7 +43,7 @@ E.g. [[1, 2, 3, 4, 5], [6, 7 , 8, 9, 10]]
 ```javascript
 Paginize.changePage(BoxID);
 ```
-* BoxID refers to the ID of the pagination box that was clicked. Refer to the important note under Initialization for more information.
+* BoxID refers to the ID of the pagination box that was clicked. Refer to the important note under Change Box Segment for more information.
 
 #### Data Returned
 * This function will run the data splitting function automatically and return the sliced data array.
