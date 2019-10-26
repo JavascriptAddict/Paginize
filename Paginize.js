@@ -39,7 +39,7 @@ var Paginize = {
         this.currentSegment = 0;
         this.lowestSegment = 0;
         this.highestSegment = this.segmentedArray.length - 1;
-        return boxSetArray;
+        //return boxSetArray;
     }, 
     // Return sliced data array 
     changePage: function(BoxId) {
