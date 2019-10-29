@@ -36,7 +36,7 @@ E.g. -1 or 1
 ```
 #### Data Returned
 ```
-E.g. [[1, 2, 3, 4, 5], [6, 7 , 8, 9, 10]]
+E.g. [[6, 7 , 8, 9, 10]]
 ```
 * **IMPORTANT: Please use the data returned to set the page number and ID of the pagination boxes**
 ### Change Page
